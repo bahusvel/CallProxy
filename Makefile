@@ -1,5 +1,5 @@
 test:
-	gcc test.c -o test
+	gcc cproxy.c -o test
 
 run: test
 	./test
